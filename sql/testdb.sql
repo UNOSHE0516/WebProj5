@@ -11,7 +11,4 @@ create table users(
  insert into users values(2,"jiro","456");
  insert into users values(3,"hanako","789");
 
- create table inquiry(
- namevarchar(255),
- qtype varchar(255),
- body varchar(255));
+ create table inquiry(name varchar(255), qtype varchar(255), body varchar(255));
