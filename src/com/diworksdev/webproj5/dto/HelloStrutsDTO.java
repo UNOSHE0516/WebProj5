@@ -10,7 +10,7 @@ public class HelloStrutsDTO {
 		return userId;
 	}
 
-	public void styUserId(int userId){
+	public void setUserId(int userId){
 		this.userId = userId;
 	}
 
